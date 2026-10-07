@@ -1,6 +1,6 @@
 # RPG Prefab Houses
 
-<img src="images/logo.jpg" width="128" align="right" alt="RPG Prefab Houses logo">
+![RPG Prefab Houses](images/banner.png)
 
 Minecraft **1.20.1** · Forge **47.1.0 or newer** · mod id `rpgprefabhouses`
 
