@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.2
+
+**New**
+- New server setting `exemptOperators` (in the placement section). It's on by default, so nothing changes:
+  operators, and the owner of a single-player world with cheats on, place houses for free like creative players.
+  Modpacks that want everyone to play by the survival rules can turn it off: operators then pay the placement price
+  and need the catalogue (and the hammer for extensions). Creative players always build for free.
+
 ## 1.3.1
 
 **Fixes**
