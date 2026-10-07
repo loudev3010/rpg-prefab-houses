@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1
+
+**Fixes**
+- The 3D preview now shows overlay and connected textures correctly in packs with texture mods (such as Continuity
+  and Fusion). Before, parts of some blocks showed as black and white patches in the preview.
+
 ## 1.3.0
 
 **New**
