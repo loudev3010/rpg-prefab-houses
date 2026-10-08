@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.5.0
+
+**New**
+- **Three new genres**, completing the catalogue at twenty, each with its own cottage:
+  - the **Greek Villa**: white plaster ranges on a podium of rough natural stone under low terracotta roofs, a
+    columned portico under a low pediment, a paved terrace with a balustrade and steps down to the garden, roof
+    terraces under pergolas, and at the larger sizes a court with a fountain behind a columned gateway or closed by a
+    front range with colonnades. Olive groves, cypresses and a new **Pergola** garden feature.
+  - the **Great Canopy Treehouse**: hollow trunks with a stair winding up inside past a room on every level, cabins
+    on log boughs at different heights, the enchanting room in a crown hall under the leaves, railed platforms
+    spiralling round the trunks and bridges between the trees. The bigger the house, the more trees, up to a
+    settlement in the canopy.
+  - the **Alpine Mountain Chalet**: a broad gable front under a steep shingle roof reaching far past the walls on log
+    purlins, a fieldstone ground storey under log storeys, a balcony across the front on every upper floor and big
+    shuttered windows full of red flowers. Larger chalets stretch out sideways with lower ranges, a second gable
+    front and a wing behind.
+- Every size from Small to Massive and 1-5 floors, cottages, basements, mines, underground styles, Builder's Hammer
+  extensions and design codes work for the new genres as for the others.
+
+**Changes**
+- The tiny Treehouse cottage is at least 19 blocks deep (its root hall holds the stair down to the cellar).
+
+Existing designs and design codes build exactly the same houses as in 1.4.0. Servers and clients must both run
+1.5.0.
+
 ## 1.4.0
 
 **New**

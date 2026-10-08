@@ -8,10 +8,8 @@ Minecraft **1.20.1** · Forge **47.1.0 or newer** · mod id `rpgprefabhouses`
 [Modrinth](https://modrinth.com/mod/rpg-prefab-houses) · **Bugs and ideas:** [Issues](../../issues) ·
 **Full guide:** [GUIDE.md](GUIDE.md) · **Changes:** [CHANGELOG.md](CHANGELOG.md)
 
-Large, architecturally distinct bases built entirely from vanilla blocks, designed for RPG and heavily modded
-survival. Browse seventeen house styles in a 3D catalogue, customise one to your own specification, or let
-**Surprise me** roll one for you, then place it in the world with a ghost preview. The vanilla blocks make the
-house; the empty space makes your base.
+Big houses you pick from a 3D catalogue, change to suit you and place in a few seconds. Vanilla blocks only. They
+come furnished and lit, with plenty of empty floor left for your own chests, machines and magic.
 
 RPG Prefab Houses is closed source. This repository is for bug reports, ideas, screenshots and changelogs.
 
@@ -24,23 +22,16 @@ More screenshots are in the [images](images) folder.
 
 ## Features
 
-- **17 styles**, from a Medieval Manor and a Viking Longhouse to a Wizard's Tower, a Hillside Burrow, a Gothic
-  Manor, a Dwarven Stone Hall and an Eastern Fantasy House. Five have a hand-built signature house; every style
-  can be generated to your own design.
-- **Five sizes** (Small, Medium, Large, Huge, Massive) and **1–5 floors**, each style keeping its own proportions.
-  Every style builds even at its smallest size with one floor.
-- **Cottages:** a cosy, smaller take on every style, down to genuinely small builds.
-- **Customise everything:** rooms, basement, materials, roof, grounds, garden features, doors and more, with a
-  live 3D preview, an interior cutaway and a room plan of every floor.
-- **Underground themes:** timber cellars, dwarven halls, crypts, grottoes and arcane vaults.
-- **A deep mine** under the house, all the way down to the deepslate, with recovery chests.
-- **Safe placement:** a ghost shows where the house goes and whether it fits. Houses build a little at a time, so
-  even the biggest one never freezes the server.
-- **Undo** a placed house within 30 minutes, with the land put back exactly as it was.
-- **Builder's Hammer:** extend a placed house with new wings and towers.
-- **For servers:** optional pricing per house (by size, style, basement and mine) and other limits in the server
-  config.
-- **Translations:** English, Chinese, Russian, Spanish, Brazilian Portuguese and German.
+- **20 styles**, each with a cottage version: Stone & Timber Manor, Ranger Lodge, Adventurer's Keep, Village
+  Homestead, Alchemist's Residence, Merchant Estate, Oasis Residence, Crooked Manor, Viking Longhouse, Wizard's Tower,
+  Storybook Manor, Rustic Townhouse, Fairy Hut, Hillside Burrow, Gothic Manor, Dwarven Hall, Eastern House, Greek
+  Villa, Treehouse and Alpine Chalet
+- **Make it yours:** Small to Massive, 1–5 floors, rooms, basement, mine, materials and garden, with a live 3D preview
+- **Underground:** themed basements and a deep mine down to deepslate, with what it dug out in chests at the bottom
+- **Safe placement:** a ghost preview, lot blending, no lag spikes, and undo within 30 minutes
+- **Builder's Hammer:** add wings and towers to a placed house
+- **For servers:** prices and limits in the server config
+- **Translations:** English, German, Spanish, Brazilian Portuguese, Russian and Chinese
 
 ## Getting started
 

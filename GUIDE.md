@@ -23,6 +23,9 @@ How to use RPG Prefab Houses. For a quick overview, see the [README](README.md).
 | Elegant Gothic Manor | Tall stone ranges with steep roofs, a tower and buttresses |
 | Dwarven Stone Hall | Low stone hall dug into a rock face, with a carved portal and a forge |
 | Eastern Fantasy House | Hall on a stone base with wide curved roofs and a lily pond |
+| Greek Villa | White villa on a stone podium with terracotta roofs, a portico, roof terraces and a court |
+| Great Canopy Treehouse | Hollow trunks with stairs inside, cabins on boughs and bridges between the trees |
+| Alpine Mountain Chalet | Broad gable front with deep eaves and a balcony on every upper floor |
 
 The first five also have a hand-built signature house.
 
