@@ -1,5 +1,41 @@
 # Changelog
 
+## 1.6.0
+
+**New**
+- **Every size choice now goes Small, Medium, Large, Huge, Massive**, and each size really builds bigger than the
+  one before:
+  - **Room Size**: Small, Medium and Huge are the old Compact, Spacious and Grand; **Large** (taller storeys, rooms a
+    little bigger) and **Massive** (8-block storeys, wide halls and stairs, the biggest rooms) are new.
+  - **Basement**: new **Massive** basement reaching out under the garden (it takes Large grounds or more). A Large
+    basement in a house with only one wing now runs under the whole house instead of being the same as Medium.
+  - **Mine**: new **Small** mine and a **Massive** one with a 13-block shaft, a 23 × 21 chamber 8 blocks high and two
+    long side tunnels. Medium, Large and Huge are the old Standard, Large and Very Large.
+  - **Grounds**: new **Massive** grounds with room for more garden features and trees.
+  - **Builder's Hammer**: new **Huge** and **Massive** wings and towers, chosen with arrows like the room.
+- The tooltip of every size setting tells you what the size you chose measures (storey height, corridor and stair
+  width and the smallest bedroom; the mine's shaft, chamber and tunnels; the garden in front, behind and at the sides).
+- **Tiny** is a form of its own (Classic / Offset / Cottage / Tiny).
+- When one choice changes another (a Massive basement takes Large grounds, a cottage keeps two optional rooms), the
+  screen says what changed.
+
+**Fixes**
+- Clicking Size could show the previous size again or stop changing after a few clicks; Back and Customise again
+  kept the old size. Every click now shows and keeps its size.
+- **Garden Props** placed nothing in most styles (the stone skirt round the walls was in the way); props now stand
+  in front of it.
+- Settings that changed nothing are gone or explained: the style's own wood, stone and roof show as *Style Default
+  (Spruce)* instead of appearing twice; Balcony needs a Porch and two floors (it stands on the porch roof); the
+  Desert Oasis and Mountain Keep porch is offered on their cottages, where it is built; the great hall of the Ranger
+  Lodge and Nordic Longhouse is always there. When a porch, balcony, roof trim or props have no place in a layout,
+  the warnings say so.
+- **Colour** says what it does: it recolours the carpets, beds, banners and wool inside the house.
+- Long tooltips wrap instead of running off the screen.
+- Consistent wording across the screens and key hints that follow your key bindings.
+
+Existing designs and design codes keep their sizes. A few build slightly differently: designs with Garden Props
+ticked (they now get their props), and Large basements in one-wing houses. Servers and clients must both run 1.6.0.
+
 ## 1.5.0
 
 **New**

@@ -58,11 +58,16 @@ smaller. A single-storey house keeps its big rooms in the basement (the **Rooms 
 you add yourself are never left out: if they don't fit, the right panel tells you why, for example "remove 2
 rooms". **Surprise me** only picks designs that build as asked.
 
+Every size choice uses the same five sizes, **Small, Medium, Large, Huge and Massive**: the house, its room size,
+basement, mine, grounds and Builder's Hammer extensions. Hover a size setting to see what the size you chose
+measures. When one choice changes another (a Massive basement needs Large grounds), the screen tells you.
+
 Save designs you like under **Presets**. They work in every world.
 
 Some options worth knowing:
 
-- **Form:** Classic, Off-centre (door and stairs to one side), or Cottage.
+- **Form:** Classic, Offset (door and stairs to one side), Cottage, or Tiny.
+- **Colour:** recolours the carpets, beds, banners and wool inside the house.
 - **Landscape:** Natural sets the house on a grassy mound with a winding path, flowers and trees.
 - **Underground style:** turns the basement into a timber cellar, dwarven hall, crypt, grotto or arcane vault.
 - **Overgrowth, roof trim, wall details, garden props:** extra character for the outside.
