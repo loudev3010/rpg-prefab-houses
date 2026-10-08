@@ -1,5 +1,36 @@
 # Changelog
 
+## 1.4.0
+
+**New**
+- **Three new genres**, each with its own cottage: the **Gothic Manor** (tall stone ranges, steep roofs, a
+  tower, pointed windows and buttresses), the **Dwarven Stone Hall** (a low stone hall dug into a rock face, with a
+  carved portal, a forge and a dwarven underground) and the **Eastern Fantasy House** (a hall on a stone podium with
+  wide curved roofs, courtyards at the bigger sizes, a lily pond with a bridge and a grotto underground). The rock
+  face of the Dwarven hall can be switched off in the Customise screen.
+- **Rooms in the basement**: a single-storey house keeps its big rooms in a cellar under the garden, so every genre
+  builds at one floor. It is switched on for you when you choose 1 floor, and you can switch it off.
+- **Every genre builds at its smallest size with one floor.** When the genre's own rooms do not all fit, the house
+  leaves out the ones that do not and names each of them ("No space for the library at this size..."). If even its
+  main rooms do not fit, the big rooms move to a cellar under the garden, and as a last resort the rooms get a size
+  smaller; each of these says so. Rooms you tick yourself are never left out.
+- Faster: houses generate about twice as fast, and placing a house costs the server much less each tick (each
+  layer of a house now costs only its own blocks).
+
+**Changes**
+- **Windows keep solid wall between them and every door**, and every window sits in solid wall all round. An
+  extension's new doorway walls up any window pane right beside it.
+
+**Fixes**
+- Designs that could not be built now build: the Massive single-storey fairy hut, narrow mountain keeps, shallow
+  hillside burrows with big rooms, and desert oases without towers.
+- Fixed rare crashes and flaws: overlapping longhouse annexes, floating flowers and lanterns, swamp water over a
+  basement room, and steps or window sills you could climb onto but not off.
+
+Because of the window change, **saved designs and design codes may build slightly different houses** than in
+1.3: windows next to doors move along the wall or are left out. Saved presets show their "may look different" note.
+Servers and clients must both run 1.4.0.
+
 ## 1.3.2
 
 **New**

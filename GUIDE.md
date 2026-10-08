@@ -20,6 +20,9 @@ How to use RPG Prefab Houses. For a quick overview, see the [README](README.md).
 | Rustic Timber Townhouse | Tall house with a row of steep front gables |
 | Whimsical Fairy Hut | Stone cottage under a curled teal roof |
 | Cosy Hillside Burrow | A home dug into a grassy hill |
+| Elegant Gothic Manor | Tall stone ranges with steep roofs, a tower and buttresses |
+| Dwarven Stone Hall | Low stone hall dug into a rock face, with a carved portal and a forge |
+| Eastern Fantasy House | Hall on a stone base with wide curved roofs and a lily pond |
 
 The first five also have a hand-built signature house.
 
@@ -46,8 +49,11 @@ Customise lets you change the size (Small to Massive), floors (1 to 5), rooms, b
 roof, doors and more. The preview updates as you go and can show the outside, a cutaway of each floor, a room
 plan, or the mine.
 
-If a design can't be built, the right panel tells you why, for example "remove 2 rooms". **Surprise me** only
-picks designs that build.
+If a house is too small for its style's rooms, it leaves out the ones that don't fit and names them; if even its
+main rooms don't fit, its big rooms go in a cellar under the garden, and as a last resort the rooms get a size
+smaller. A single-storey house keeps its big rooms in the basement (the **Rooms in the basement** option). Rooms
+you add yourself are never left out: if they don't fit, the right panel tells you why, for example "remove 2
+rooms". **Surprise me** only picks designs that build as asked.
 
 Save designs you like under **Presets**. They work in every world.
 

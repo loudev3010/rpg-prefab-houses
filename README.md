@@ -9,7 +9,7 @@ Minecraft **1.20.1** · Forge **47.1.0 or newer** · mod id `rpgprefabhouses`
 **Full guide:** [GUIDE.md](GUIDE.md) · **Changes:** [CHANGELOG.md](CHANGELOG.md)
 
 Large, architecturally distinct bases built entirely from vanilla blocks, designed for RPG and heavily modded
-survival. Browse fourteen house styles in a 3D catalogue, customise one to your own specification, or let
+survival. Browse seventeen house styles in a 3D catalogue, customise one to your own specification, or let
 **Surprise me** roll one for you, then place it in the world with a ghost preview. The vanilla blocks make the
 house; the empty space makes your base.
 
@@ -24,9 +24,11 @@ More screenshots are in the [images](images) folder.
 
 ## Features
 
-- **14 styles**, from a Medieval Manor and a Viking Longhouse to a Wizard's Tower, a Fairy Hut and a Hillside
-  Burrow. Five have a hand-built signature house; every style can be generated to your own design.
+- **17 styles**, from a Medieval Manor and a Viking Longhouse to a Wizard's Tower, a Hillside Burrow, a Gothic
+  Manor, a Dwarven Stone Hall and an Eastern Fantasy House. Five have a hand-built signature house; every style
+  can be generated to your own design.
 - **Five sizes** (Small, Medium, Large, Huge, Massive) and **1–5 floors**, each style keeping its own proportions.
+  Every style builds even at its smallest size with one floor.
 - **Cottages:** a cosy, smaller take on every style, down to genuinely small builds.
 - **Customise everything:** rooms, basement, materials, roof, grounds, garden features, doors and more, with a
   live 3D preview, an interior cutaway and a room plan of every floor.
