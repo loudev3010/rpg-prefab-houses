@@ -1,5 +1,33 @@
 # Changelog
 
+## 1.6.2
+
+**New: Terrain setting**
+- Customise > Terrain: **Terrain Adapted** lays the house into the land as in 1.6.1. **Flat Platform** puts it on a
+  level lot and blends the land around it to meet the lot, the way Original houses are placed.
+- On a Flat Platform, trees the lot cuts through are taken down whole, along with any leaves and vines left hanging.
+  The ghost marks the trees that will go.
+- Original architecture always stands on a flat platform, so the row is greyed out for it.
+
+**New: Path Size**
+- Customise > Path Size: **Expanded** keeps the paths as before: a main path three blocks wide, and every path carried
+  on over the land to a nearby road.
+- **Compact** makes the main path only as wide as the front door, and only that path carries on a short way past the
+  lot.
+
+**New: room switches**
+- The Storage Room can now be switched off. The Village Homestead and Coastal Estate keep it, since they are built
+  around their barn and warehouse. A house without a storage room has no starter chests.
+- **All On / All Off** above the room list switches every room that can be switched.
+
+**Improved: houses laid into the land**
+- The land around a Terrain Adapted house is shifted to meet the lot instead of being flattened, so it keeps its shape.
+  Where the lot already meets the land, nothing moves. Around 10% less land is reshaped on the test sites.
+- Past a three-block yard round the house, open lawn that sits at the land's own height keeps the land's own ground
+  and plants. In woods and wild land the forest floor now runs up to the yard, between the paths and garden features.
+
+Existing designs and design codes keep the houses they always built. Servers and clients must both run 1.6.2.
+
 ## 1.6.1
 
 **New: Varied architecture**

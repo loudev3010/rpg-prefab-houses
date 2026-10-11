@@ -69,13 +69,19 @@ Some options worth knowing:
 - **Form:** Classic, Offset (door and stairs to one side), Cottage, or Tiny.
 - **Colour:** recolours the carpets, beds, banners and wool inside the house.
 - **Landscape:** Natural sets the house on a grassy mound with a winding path, flowers and trees.
+- **Terrain:** Terrain Adapted lays the house into the land around it; Flat Platform puts it on a level lot with
+  the land blended to meet it.
+- **Path Size:** Expanded (a wide main path, every path carried on to a nearby road) or Compact (the main path as
+  wide as the front door, and only it carried a short way out).
+- **Rooms:** every room has its own switch, and All On / All Off switches them all.
 - **Underground style:** turns the basement into a timber cellar, dwarven hall, crypt, grotto or arcane vault.
 - **Overgrowth, roof trim, wall details, garden props:** extra character for the outside.
 
 ## What every house has
 
 - An enchanting room with a full vanilla setup (switch the Magic Room off in the rooms if you don't want it).
-- A storage room, mostly empty so you can fill it with your own storage.
+- A storage room, mostly empty so you can fill it with your own storage (it can be switched off, except in the
+  Village Homestead and Coastal Estate, which are built around it).
 - A deep mine: a lit staircase down to the deepslate, ending in a chamber with chests. The chests hold the
   blocks the mine dug out, nothing more. Switch the Mine off in the rooms for a house without one.
 
