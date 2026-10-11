@@ -26,9 +26,9 @@ More screenshots are in the [images](images) folder.
   Homestead, Alchemist's Residence, Merchant Estate, Oasis Residence, Crooked Manor, Viking Longhouse, Wizard's Tower,
   Storybook Manor, Rustic Townhouse, Fairy Hut, Hillside Burrow, Gothic Manor, Dwarven Hall, Eastern House, Greek
   Villa, Treehouse and Alpine Chalet
-- **Make it yours:** every size choice (house, rooms, basement, mine, garden, extensions) from Small to Massive, 1–5 floors, materials, with a live 3D preview
-- **Underground:** themed basements and a deep mine down to deepslate, with what it dug out in chests at the bottom
-- **Safe placement:** a ghost preview, lot blending, no lag spikes, and undo within 30 minutes
+- **Make it yours:** every size choice (house, rooms, basement, mine, garden, extensions) from Small to Massive, 1–5 floors, materials, Varied or Original architecture, room decoration, with a live 3D preview
+- **Underground:** themed basements and an optional deep mine down to deepslate, with what it dug out in chests at the bottom
+- **Safe placement:** a ghost preview, Varied houses laid into the land (level ground, natural slopes, a path from the front door, only the trees in the way taken down), no lag spikes, and undo within 30 minutes
 - **Builder's Hammer:** add wings and towers to a placed house
 - **For servers:** prices and limits in the server config
 - **Translations:** English, German, Spanish, Brazilian Portuguese, Russian and Chinese

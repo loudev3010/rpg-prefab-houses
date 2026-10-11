@@ -41,7 +41,7 @@ The first five also have a hand-built signature house.
 
    It isn't used up when you place a house (servers can change that).
 2. Right-click it, or press **K**. Pick a style, then press **Place**, **Customise** or **Surprise me**.
-3. A ghost shows where the house will go: green means it fits, red means it doesn't, and the screen says why.
+3. A ghost shows where the house will go: green means it fits, red means it doesn't, and the screen says why. If a nearby spot fits better, the ghost moves or turns the house there and says so.
    **R** rotates, **Shift + scroll** moves it up or down, left-click builds, right-click cancels.
 
 The **Cottages** tab shows a smaller, cosier version of every style.
@@ -74,10 +74,10 @@ Some options worth knowing:
 
 ## What every house has
 
-- An enchanting room with a full vanilla setup.
+- An enchanting room with a full vanilla setup (switch the Magic Room off in the rooms if you don't want it).
 - A storage room, mostly empty so you can fill it with your own storage.
 - A deep mine: a lit staircase down to the deepslate, ending in a chamber with chests. The chests hold the
-  blocks the mine dug out, nothing more.
+  blocks the mine dug out, nothing more. Switch the Mine off in the rooms for a house without one.
 
 ## Placement rules
 
@@ -128,6 +128,8 @@ in the file. The main ones:
   Bigger houses, basements and mines cost more; `costBySize` and `costByGenre` adjust this.
 - `undoMinutes`: how long undo works (0 turns it off).
 - `blendTerrain`: smooth the land around the house.
+- `fitTerrain`: lay Varied houses into the land (level ground round the house, the garden following the slope, a path
+  from the front door, only the trees in the way taken down). Off puts them on a level lot as before.
 - `deepMines`, `mineBottomY`, `recovery`: the mine and what its chests hold.
 
 Modpacks can put their own settings in the `defaultconfigs` folder.

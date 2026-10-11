@@ -1,5 +1,48 @@
 # Changelog
 
+## 1.6.1
+
+**New: Varied architecture**
+- New designs use **Varied** architecture (Customise > Architecture). The seed now changes every style's shape, and
+  large houses are built from several volumes instead of one block.
+- Varied wall windows come in pairs with blank bays, set round a wider middle window. Dormers and side gables vary
+  with the seed, and the yard has a working side and a garden side.
+- Rooms that belong together sit side by side, and bedrooms keep away from noisy rooms.
+- **Original** architecture builds every house exactly as before. Saved designs and design codes keep the house they
+  always built.
+
+**New: room decoration**
+- Decoration can be **None**, **Selected Rooms** or **All Rooms**. You pick the rooms floor by floor in the Customise
+  screen.
+
+**New: houses laid into the land**
+- A Varied house now sits on the land where you place it, instead of on a flat lot. The house stands on level ground,
+  and the garden slopes into the surrounding land as grass. Stone walls appear only where the style has them
+  (terraces for the Keep, Dwarven Hall and Greek Villa, plinths, podiums).
+- Wings can step up or down a little with the slope. The Dwarven Hall sets itself into the rock.
+- Hillside styles sit lower in the slope, and houses on stilts stand on posts.
+- The front door gets a level landing and a path that leads out to open land. On slopes the path has steps, and over
+  water it has a deck.
+- Trees are kept unless they are in the way. A tree that is in the way is taken down whole, with nothing left
+  floating. A narrow gap opens so you can see the front of the house as you walk up to it.
+- The placement ghost shows the house as it will stand on the land. It marks the trees that will be cleared, and
+  shows the path squares at their real height.
+- If the land is too steep or would need too much digging, the ghost moves or turns the house to a nearby spot that
+  fits and tells you. If there is no such spot, it says why the house can't go there.
+- Servers can switch this off with the `fitTerrain` setting. Varied houses then go on a level lot as in 1.6.0.
+
+**New: Mine and Magic Room can be switched off**
+- The Mine and the Magic Room (enchanting room) are now ordinary on/off rooms in the room list. Both are on by
+  default. With the Mine off there is no shaft, chamber or digging, and the Mine size is greyed out. With the Magic
+  Room off the house is planned without it.
+- The Builder's Hammer won't add a magic room to a house that was built without one.
+
+**Fixes**
+- Undo no longer refuses with "Part of the house has been broken" when a leaf from a tree next to the house decays.
+- A one-block gap could be left where a very tall tower meets the house wall; it is now filled (Varied houses only).
+
+Existing designs and design codes keep the houses they always built. Servers and clients must both run 1.6.1.
+
 ## 1.6.0
 
 **New**
