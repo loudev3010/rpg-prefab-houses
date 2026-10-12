@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.6.4
+
+**Compatible with shaders (Oculus, Embeddium)**
+- With a shader pack on, the house you are placing showed as a solid black shape instead of the see-through green
+  (or red, when it can't be placed) preview. It now shows as a see-through, tinted preview with shaders too, lit by
+  the shader pack.
+- With shaders, the placement outlines could also show up a second time, floating in the sky, and the preview cast a
+  shadow on itself. Both are gone.
+- The Builder's Hammer extension preview had the same problem and is fixed too.
+- Without shaders, everything looks exactly as before. Embeddium on its own with shaders off was not affected.
+
+Only the client changed: a 1.6.4 client can join a 1.6.3 server and the other way round. Houses build exactly as in
+1.6.3.
+
 ## 1.6.3
 
 **Fixed: gaps in upper-floor windows**
