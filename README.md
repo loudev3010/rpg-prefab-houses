@@ -13,6 +13,10 @@ come furnished and lit, with plenty of empty floor left for your own chests, mac
 
 RPG Prefab Houses is closed source. This repository is for bug reports, ideas, screenshots and changelogs.
 
+**Watch the trailer:**
+
+[![RPG Prefab Houses trailer](images/trailer.jpg)](https://youtu.be/_jNxC2HHj_A)
+
 ![Medieval Stone & Timber Manor](images/01-medieval-manor.jpg)
 ![Grand Fantasy Wizard's Tower](images/12-wizard-tower.jpg)
 ![The catalogue](images/02-catalogue.jpg)
