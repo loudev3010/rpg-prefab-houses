@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.6.3
+
+**Fixed: gaps in upper-floor windows**
+- On houses whose upper floor juts out over the wall below (Rustic Townhouse, Storybook Manor, Medieval Manor, Swamp
+  Manor, Alchemist House and Village Homestead), part of a window could be pushed out with the jutting wall while the
+  rest stayed behind. The glass panes either side of the step met only at a corner, and panes cannot join that way, so
+  the window showed a gap.
+- A window now moves out with the wall as a whole, together with the wall on each side of it, or stays where it is.
+  Bay windows, window frames, shutters and every window size are unchanged.
+
+Houses in those six styles can come out slightly different around their upper windows, so saved designs in them are
+marked as made with an older version. Every other style and the Original architecture build exactly as before.
+Servers and clients must both run 1.6.3.
+
 ## 1.6.2
 
 **New: Terrain setting**
