@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.6.5
+
+**Tower stairs fixed**
+- The stairs that wind up the inside of a tower could not be walked up: at every turn you met the next step from
+  the side and had to jump. This affected the towers you add with the Builder's Hammer, and the towers inside
+  houses (Wizard's Tower and the other round-towered styles). Every step now faces the way you walk on to it, so
+  you can walk up and down without jumping. The house's other staircases are unchanged.
+
+**New: Underground On / Off**
+- A new **Underground** switch at the top of the Underground settings in Customise. Off builds the house wholly
+  above ground: no basement, no rooms in the basement, no mine and no stairs going down. On brings back the
+  basement and mine you had.
+- With it off, the basement, mine and underground style settings and the Mine room are locked until you switch it
+  back on.
+- Cottages, the Swamp Manor, the Hillside Burrow and the Treehouse always keep their underground, because their
+  rooms are down there.
+- A small house may not fit every room above ground; the screen then says it is too small, so pick a larger size
+  or more floors.
+- Builder's Hammer extensions never have an underground of their own.
+
+Existing design codes build exactly the same houses. Client and server both need 1.6.5.
+
 ## 1.6.4
 
 **Compatible with shaders (Oculus, Embeddium)**

@@ -74,6 +74,8 @@ Some options worth knowing:
 - **Path Size:** Expanded (a wide main path, every path carried on to a nearby road) or Compact (the main path as
   wide as the front door, and only it carried a short way out).
 - **Rooms:** every room has its own switch, and All On / All Off switches them all.
+- **Underground:** On / Off. Off builds the house wholly above ground: no basement, no rooms in it, no mine. Always
+  on for cottages, the Swamp Manor, the Hillside Burrow and the Treehouse.
 - **Underground style:** turns the basement into a timber cellar, dwarven hall, crypt, grotto or arcane vault.
 - **Overgrowth, roof trim, wall details, garden props:** extra character for the outside.
 
