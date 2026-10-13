@@ -2,7 +2,7 @@
 
 ![RPG Prefab Houses](images/banner.png)
 
-Minecraft **1.20.1** · Forge **47.1.0 or newer** · mod id `rpgprefabhouses`
+Minecraft **1.20.1** · Forge **47.1.0 or newer** &nbsp;|&nbsp; Minecraft **1.21.1** · NeoForge **21.1.1 or newer** · mod id `rpgprefabhouses`
 
 **Download:** [CurseForge](https://www.curseforge.com/minecraft/mc-mods/rpg-prefab-houses) ·
 [Modrinth](https://modrinth.com/mod/rpg-prefab-houses) · **Bugs and ideas:** [Issues](../../issues) ·

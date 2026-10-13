@@ -1,5 +1,35 @@
 # Changelog
 
+## 1.6.6 (Forge 1.20.1 and NeoForge 1.21.1)
+
+**Now on Minecraft 1.21.1 with NeoForge**
+- RPG Prefab Houses now runs on Minecraft 1.21.1 with NeoForge, as well as on 1.20.1 with Forge. It's the same mod:
+  the same 20 styles, the same Customise settings and the same Builder's Hammer, and a design code builds the same
+  house on both.
+- The Forge 1.20.1 version stays available and gets the same updates. This is an extra version, not a replacement.
+- Needs NeoForge 21.1.1 or newer (tested on 21.1.259). Install it on the server and on every client.
+- Houses you placed in a 1.20.1 world are still recognised when the world is opened in 1.21.1, so you can still extend
+  them with the Builder's Hammer. Back up your world before moving it to a new Minecraft version.
+- Decorated pots and bells now turn with the house, like every other block (in 1.20.1 they kept their facing).
+- Tested with Sodium and Iris shaders.
+
+**Land claims respected**
+- With some claim mods (such as Open Parties and Claims) a house could be placed inside another player's claim.
+  Placing a house, or extending one with the Builder's Hammer, now also asks the claim mod whether you may build
+  there, and is refused if any claimed chunk under the house or its mine says no. Claims from mods that already
+  worked (such as FTB Chunks) and spawn protection are respected as before.
+
+**Undo gives the grass back**
+- Grass, mycelium and nylium under a house turn to dirt while it stands. Undo now puts them back as they were.
+
+**Adventure mode**
+- Adventure-mode players follow Minecraft's adventure rules: placing or extending a house needs a Prefab Catalogue
+  or Builder's Hammer in hand whose "Can place on" list names the ground there. Before, adventure players could
+  place houses anywhere.
+
+The land-claim, Undo and adventure changes are in both versions. Existing design codes build exactly the same
+houses. On Forge 1.20.1 only the server needs 1.6.6: 1.6.5 clients can still join.
+
 ## 1.6.5
 
 **Tower stairs fixed**
