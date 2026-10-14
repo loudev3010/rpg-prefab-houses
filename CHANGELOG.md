@@ -1,5 +1,55 @@
 # Changelog
 
+## 1.6.7 (Forge 1.20.1)
+
+**See what is in the way**
+- When a house can't be placed because something stands in the way (a chest, a furnace, another mod's machine, a
+  player's build), the message now names the nearest few blocks and their coordinates, so you can find and move
+  them. Before, it only said how many there were. The same goes for the mine's warnings, Undo's refusals and land
+  that is protected (it names the first protected column).
+
+**Safer Undo**
+- A chest someone put down where a house was still being built is now left standing, items and all. Before, the
+  build spilled its items on the ground and Undo then brought the chest back full.
+- Undo is refused if a block of the house was replaced (not just broken), or if an item in one of its chests was
+  swapped for one that only differs by its name or enchantments. The refusal says which block and where.
+- Storage and machines from other mods inside the house now count as yours, like your own chests: take them out
+  before you undo.
+- Blocks you have built inside the house since it went in are left standing by Undo, and it tells you how many.
+- When the mine's recovery chests are full, the leftover items lie beside them. Undo is now refused once any of them
+  has been picked up, so they can't be kept as well as the rock Undo puts back.
+- Storage from other mods that the mine cuts through is emptied into the recovery chests.
+
+**If a build fails**
+- A house that fails part way through building now puts the land back as it was before the price is given back.
+- If a house fails to build while its owner is logged out, they get the price back when they return (unless the
+  server restarted in between). If it builds while they are away, they can still undo it once they are back.
+
+**Land claims and the world border**
+- Claims, spawn protection and the world border are now checked for every column a house covers, including the land
+  blended round it and its paths, not once per chunk. Claim mods that claim less than a whole chunk are respected.
+- The Builder's Hammer's rule that a house built without its enchanting room can't be given a Magic room is now
+  kept by the server too, not only by its screen.
+
+**Smoother on servers**
+- Placement requests are limited to a few a second per player, and the quick checks (spectator, catalogue, distance)
+  run before a design is generated. The deep mine is dug a little at a time instead of in one go.
+- The Builder's Hammer checks distance and whether a house is still being built nearby before it builds.
+
+**Fixes**
+- House previews no longer show the wrong textures after pressing F3+T or changing resource packs.
+- A damaged saved-designs file no longer loses every design after the damaged one; an unreadable file is kept as
+  `rpgprefabhouses-presets.json.bad`.
+- The seed box no longer accepts a number larger than a seed can be (it used a different seed than it showed).
+- The placement panel shows the price of the house that will actually be placed when the land splits it into levels.
+- In the catalogue, C and Enter do nothing when the Customise and Place buttons are greyed out.
+- Loading a saved design or a random one no longer keeps basement and mine choices from the previous design.
+- A vine on the land round a lot is no longer laid back beside a garden wall it can't hang on.
+- The mod's description says 20 genres.
+
+Existing design codes build exactly the same houses. 1.6.6 and 1.6.7 can play together; update both to get every fix.
+This update is for Minecraft 1.20.1 with Forge; the NeoForge 1.21.1 version has its own 1.6.7.
+
 ## 1.6.7 (NeoForge 1.21.1)
 
 **See what is in the way**
