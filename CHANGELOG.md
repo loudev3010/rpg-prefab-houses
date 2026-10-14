@@ -1,5 +1,68 @@
 # Changelog
 
+## 1.6.7 (NeoForge 1.21.1)
+
+**See what is in the way**
+- When a house can't be placed because a container, a functional block or part of a build is in the way, the message
+  now names one of those blocks and its coordinates, for example "Would overwrite 1 containers or functional blocks
+  (one is Chest at 120 64 -30)". The placement ghost also draws a red box round every block in the way.
+
+**Safer Undo**
+- Undo no longer removes blocks you put down after the house went in, such as a block in one of its rooms or on the
+  land around it. It leaves them standing and tells you how many it left.
+- Undo is refused if a block of the house was swapped for a different one, or if a chest's contents changed, now
+  including enchantments and other item data. Natural changes (grass, farmland, copper weathering, ice, growing plants)
+  don't count.
+- Storage blocks from other mods count as containers for Undo, like chests.
+
+**Containers and building**
+- A chest or other container put down where the house is still being built is left standing with its contents. Before,
+  the house was built over it and its items were spilled.
+- If building a house fails part way, what was built is taken down again and the price is paid back. If you have left
+  the game, you get it when you next join.
+
+**Deep mine**
+- The mine is dug a little at a time, so digging a deep mine no longer causes a lag spike.
+- Storage blocks from other mods in the mine's path are emptied into the recovery chests, or left standing if they
+  can't be emptied safely.
+- If the recovery chests overflow and you pick up any of the items dropped in the bottom chamber, Undo is refused
+  until they are all back.
+
+**Land claims, spawn protection and the world border**
+- These are now checked for every column under the house and its mine, not once per chunk, so a house can no longer
+  reach a few blocks into spawn protection, past the world border or into a claim.
+- The blended land, the paths, the retaining walls and the tree clean-up around the lot also stay out of land you
+  can't build on.
+
+**Builder's Hammer**
+- Spectators can't extend houses, and you need to be within the placement distance of the house.
+- An annex is no longer built onto a house that was undone, or onto one that is still being built or undone.
+- Turning through the spots around a house is quicker.
+
+**Servers**
+- Placement requests have a short cooldown, and the quick checks run before a house is generated, so a modified
+  client can't overload the server by repeating requests.
+- A house is no longer placed for free if you leave the game while it is being prepared.
+
+**Other fixes**
+- House previews and the placement ghost show the right textures after you change resource packs.
+- The price shown while placing matches what you pay on split-level houses. A wing stepped down with the land no
+  longer counts as a basement.
+- The seed box only accepts seeds a design code can keep. Before, a larger number silently became a different seed.
+- The catalogue's C and Enter shortcuts do nothing while their buttons are greyed out.
+- One damaged entry in your saved designs file no longer loses the designs after it. The file is backed up before
+  it is next saved.
+- The mod list description now says 20 genres.
+- A test-only structure is no longer included in the mod.
+
+**Compatibility**
+- Minecraft 1.21.1 with NeoForge 21.1.1 or newer (tested on 21.1.259). Install it on the server and on every client.
+- Placed houses, saved designs and design codes from 1.6.6 work as before, and the same design code builds the same
+  house.
+- Tested on a dedicated server with Open Parties and Claims.
+
+The Forge 1.20.1 version is not changed by this release.
+
 ## 1.6.6 (Forge 1.20.1 and NeoForge 1.21.1)
 
 **Now on Minecraft 1.21.1 with NeoForge**
