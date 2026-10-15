@@ -55,7 +55,7 @@ I used AI tools while developing RPG Prefab Houses, for:
 - all of the translations;
 - some of the documentation and descriptions;
 - UI design and development;
-- limited help with code and debugging.
+- help with code and debugging.
 
 I designed the overall concept, the architecture, the procedural generation systems and the feature direction
 myself, and I did the testing and balancing. AI was a development tool: I reviewed, changed and tested its
