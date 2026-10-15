@@ -1,76 +1,84 @@
 # Changelog
 
-## 1.7.0 (Forge 1.20.1)
+## 1.7.0 (Forge 1.20.1): Storage vault for Tom's Simple Storage
 
-**Storage vault for Tom's Simple Storage (optional)**
-- The Customise screen has a new **Mods** section. Its first switch, **Tom's Simple Storage vault**, furnishes the
-  house's Storage Room as a storage hub instead of its usual chests and barrels. You get 20 chests in one run along the
-  walls, an Inventory Connector, and a Crafting Terminal and a Storage Terminal on the connector. Everything is
-  already connected, so the terminals reach every chest from the moment the house is built. The rest of the room stays
-  free for more storage.
-- The house itself is the same with the vault or without it: only the Storage Room's furniture changes. It needs the
-  Storage Room and the Varied architecture. Where the room is too small for the vault (rare: 2 of the 1,000 genre, form,
-  size and room-size combinations tested), the screen says so and suggests a larger size or room size.
-- **Cost:** in survival the vault's blocks are part of the price: 20 Chests, 1 Inventory Connector, 1 Storage Terminal
-  and 1 Crafting Terminal. The note under the switch and the placement panel show them, along with anything you are
-  still missing. If you are one item short, the house is not placed and nothing is taken. Creative players and
-  exempt operators build it free, like the rest of a house. A failed build or an Undo gives the blocks back.
-- **Undo** is refused while the vault holds anything, in its chests or in the Crafting Terminal's grid. Stored items
-  are never thrown away. Take everything out through a terminal first.
-- **Tom's Simple Storage is a separate mod** by tom5454 (MIT licence). It is not included: install it yourself, on the
-  server too. Tested with Tom's Simple Storage **1.20-1.7.1** (Minecraft 1.20.1, Forge). Without it, or with a version that doesn't have the
-  vault's blocks, the switch is greyed with the reason. A saved design that used the vault opens with it switched off,
-  and a server without it refuses vault designs. Everything else works as before.
-- The Builder's Hammer doesn't offer a vault.
+**What's new**
 
-**Customise screen**
-- A long switch name in the settings panel wraps onto a second line instead of being cut off.
+Houses can now come with a ready-made storage network from Tom's Simple Storage. Switch it on and the house's Storage Room is built with 20 chests, already linked to a Storage Terminal and a Crafting Terminal. You can reach everything from one place as soon as the house is placed.
 
-**Compatibility**
-- Existing design codes, presets and saved designs build exactly the same houses. A house with the vault switched off
-  is the same as in 1.6.x.
-- The network protocol changed (design codes gained a setting), so clients and servers must both run 1.7.0. A 1.6.x
-  client cannot join a 1.7.0 server, and a 1.7.0 client cannot join a 1.6.x server. Update both together.
-- Tom's Simple Storage stays optional for RPG Prefab Houses. To build a vault on a server, the server must have it;
-  install it the way Tom's Simple Storage itself requires (normally on the server and on every client).
+**How to turn it on**
 
-This update is for Minecraft 1.20.1 with Forge (47.1.0 or newer); the NeoForge 1.21.1 version has its own 1.7.0.
+1. Install Tom's Simple Storage. It's a separate mod and isn't included.
+2. Open a house in the catalogue and press **Customise**.
+3. In the new **Mods** section, switch on **Tom's Simple Storage vault**.
 
-## 1.7.0 (NeoForge 1.21.1)
+The house needs its Storage Room switched on and the Varied architecture. If Tom's Simple Storage isn't installed, the switch is greyed out and says why.
 
-**Storage vault for Tom's Simple Storage (optional)**
-- The Customise screen has a new **Mods** section. Its first switch, **Tom's Simple Storage vault**, furnishes the
-  house's Storage Room as a storage hub instead of its usual chests and barrels. You get 20 chests in one run along the
-  walls, an Inventory Connector, and a Crafting Terminal and a Storage Terminal on the connector. Everything is
-  already connected, so the terminals reach every chest from the moment the house is built. The rest of the room stays
-  free for more storage.
-- The house itself is the same with the vault or without it: only the Storage Room's furniture changes. It needs the
-  Storage Room and the Varied architecture. Where the room is too small for the vault (rare: 2 of the 1,000 genre, form,
-  size and room-size combinations tested), the screen says so and suggests a larger size or room size.
-- **Cost:** in survival the vault's blocks are part of the price: 20 Chests, 1 Inventory Connector, 1 Storage Terminal
-  and 1 Crafting Terminal. The note under the switch and the placement panel show them, along with anything you are
-  still missing. If you are one item short, the house is not placed and nothing is taken. Creative players and
-  exempt operators build it free, like the rest of a house. A failed build or an Undo gives the blocks back.
-- **Undo** is refused while the vault holds anything, in its chests or in the Crafting Terminal's grid. Stored items
-  are never thrown away. Take everything out through a terminal first.
-- **Tom's Simple Storage is a separate mod** by tom5454 (MIT licence). It is not included: install it yourself, on the
-  server too. Tested with Tom's Simple Storage **1.21-2.4.2** (Minecraft 1.21.1, NeoForge). Without it, or with a version that doesn't have the
-  vault's blocks, the switch is greyed with the reason. A saved design that used the vault opens with it switched off,
-  and a server without it refuses vault designs. Everything else works as before.
-- The Builder's Hammer doesn't offer a vault.
+**What it costs**
 
-**Customise screen**
-- A long switch name in the settings panel wraps onto a second line instead of being cut off.
+In survival, the vault adds 20 Chests, 1 Inventory Connector, 1 Storage Terminal and 1 Crafting Terminal to the house's price. The placement panel shows anything you're missing. If something is missing, the house isn't placed and nothing is taken. Creative players and exempt operators build it for free.
 
-**Compatibility**
-- Existing design codes, presets and saved designs build exactly the same houses. A house with the vault switched off
-  is the same as in 1.6.x.
-- The network protocol changed (design codes gained a setting), so clients and servers must both run 1.7.0. A 1.6.x
-  client cannot join a 1.7.0 server, and a 1.7.0 client cannot join a 1.6.x server. Update both together.
-- Tom's Simple Storage stays optional for RPG Prefab Houses. To build a vault on a server, the server must have it;
-  install it the way Tom's Simple Storage itself requires (normally on the server and on every client).
+**Undo**
 
-This update is for Minecraft 1.21.1 with NeoForge (21.1.1 or newer; built against 21.1.259); the Forge 1.20.1 version has its own 1.7.0.
+You can't undo a house while its vault still holds items, including anything left in the Crafting Terminal's grid. Empty it first. Your items are never deleted.
+
+**Good to know**
+
+- Only the Storage Room changes. The rest of the house is built exactly as before.
+- A few small size combinations don't leave room for the vault. Customise tells you and suggests a larger house or room size.
+- The Builder's Hammer can't add a vault.
+- Without Tom's Simple Storage, saved designs that used the vault open with it switched off.
+- Fixed: long setting names in Customise now wrap instead of being cut off.
+
+**Before you update (servers)**
+
+- The server and every player must update to 1.7.0 together. 1.6.x players can't join a 1.7.0 server, and 1.7.0 players can't join a 1.6.x server.
+- To build vaults on a server, install Tom's Simple Storage on the server and on every player's game.
+- Existing designs, codes and presets build exactly the same houses.
+
+**Versions**
+
+Minecraft 1.20.1 with Forge 47.1.0 or newer. Tested with Tom's Simple Storage 1.20-1.7.1. NeoForge 1.21.1 has its own 1.7.0.
+
+## 1.7.0 (NeoForge 1.21.1): Storage vault for Tom's Simple Storage
+
+**What's new**
+
+Houses can now come with a ready-made storage network from Tom's Simple Storage. Switch it on and the house's Storage Room is built with 20 chests, already linked to a Storage Terminal and a Crafting Terminal. You can reach everything from one place as soon as the house is placed.
+
+**How to turn it on**
+
+1. Install Tom's Simple Storage. It's a separate mod and isn't included.
+2. Open a house in the catalogue and press **Customise**.
+3. In the new **Mods** section, switch on **Tom's Simple Storage vault**.
+
+The house needs its Storage Room switched on and the Varied architecture. If Tom's Simple Storage isn't installed, the switch is greyed out and says why.
+
+**What it costs**
+
+In survival, the vault adds 20 Chests, 1 Inventory Connector, 1 Storage Terminal and 1 Crafting Terminal to the house's price. The placement panel shows anything you're missing. If something is missing, the house isn't placed and nothing is taken. Creative players and exempt operators build it for free.
+
+**Undo**
+
+You can't undo a house while its vault still holds items, including anything left in the Crafting Terminal's grid. Empty it first. Your items are never deleted.
+
+**Good to know**
+
+- Only the Storage Room changes. The rest of the house is built exactly as before.
+- A few small size combinations don't leave room for the vault. Customise tells you and suggests a larger house or room size.
+- The Builder's Hammer can't add a vault.
+- Without Tom's Simple Storage, saved designs that used the vault open with it switched off.
+- Fixed: long setting names in Customise now wrap instead of being cut off.
+
+**Before you update (servers)**
+
+- The server and every player must update to 1.7.0 together. 1.6.x players can't join a 1.7.0 server, and 1.7.0 players can't join a 1.6.x server.
+- To build vaults on a server, install Tom's Simple Storage on the server and on every player's game.
+- Existing designs, codes and presets build exactly the same houses.
+
+**Versions**
+
+Minecraft 1.21.1 with NeoForge 21.1.1 or newer. Tested with Tom's Simple Storage 1.21-2.4.2. Forge 1.20.1 has its own 1.7.0.
 
 ## 1.6.7 (Forge 1.20.1)
 
