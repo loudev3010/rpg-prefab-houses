@@ -46,6 +46,8 @@ More screenshots are in the [images](images) folder.
 
 The [guide](GUIDE.md) covers every option, command and server setting.
 
+Works with Tom's Simple Storage by tom5454 (not included, install it separately).
+
 ## AI Usage
 
 I used AI tools while developing RPG Prefab Houses, for:
