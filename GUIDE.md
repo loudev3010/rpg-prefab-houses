@@ -78,6 +78,9 @@ Some options worth knowing:
   on for cottages, the Swamp Manor, the Hillside Burrow and the Treehouse.
 - **Underground style:** turns the basement into a timber cellar, dwarven hall, crypt, grotto or arcane vault.
 - **Overgrowth, roof trim, wall details, garden props:** extra character for the outside.
+- **Mods > Tom's Simple Storage vault** (since 1.7.0; needs Tom's Simple Storage installed): fills the Storage Room
+  with 20 connected chests, an Inventory Connector, a Storage Terminal and a Crafting Terminal. In survival they are
+  part of the price. Undo is refused while the vault holds items.
 
 ## What every house has
 
