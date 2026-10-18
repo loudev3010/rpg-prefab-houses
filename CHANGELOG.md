@@ -1,5 +1,107 @@
 # Changelog
 
+## 1.8.0 (Forge 1.20.1): Magic Room stations for Iron's Spells 'n Spellbooks and Forbidden & Arcanus
+
+**What's new**
+
+The Magic Room can now come with real working stations from two magic mods. Each has its own switch, so you can have one, both or neither.
+
+- **Iron's Spells 'n Spellbooks:** the Inscription Table (where you bind spells into spell books), the Scroll Forge and the Arcane Anvil, set along the walls with room to use them.
+- **Forbidden & Arcanus:** a ready-to-use Hephaestus Forge, built on its full darkstone floor exactly as the mod expects, already lit. Right-click it and it works.
+
+**How to turn them on**
+
+1. Install Iron's Spells 'n Spellbooks and/or Forbidden & Arcanus. They are separate mods and aren't included.
+2. Open a house in the catalogue and press **Customise**.
+3. In the **Mods** section, switch on **Iron's Spells 'n Spellbooks** and/or **Forbidden & Arcanus: Hephaestus Forge**.
+
+The house needs its Magic Room switched on and the Varied architecture. If a mod isn't installed, its switch is greyed out and says why. The note under each switch shows the Magic Room's size and what it costs.
+
+**The Magic Room gets bigger only when it needs to**
+
+With either switch on, the Magic Room is made larger to fit the stations and still leave plenty of free floor for your own things. It is at least 11 x 13 with the Iron's stations, 11 x 17 with the forge and 11 x 19 with both. With both switches off, every house is built exactly as before.
+
+**What it costs**
+
+In survival, the blocks are added to the house's price:
+
+- Iron's Spells: 1 Inscription Table, 1 Scroll Forge, 1 Arcane Anvil.
+- Hephaestus Forge: 48 Polished Darkstone, 9 Arcane Chiseled Polished Darkstone, 4 Chiseled Arcane Polished Darkstone, 1 Smithing Table and 1 Mundabitur Dust (the forge is what the dust makes of the table).
+
+The placement panel shows anything you're missing. If something is missing, the house isn't placed and nothing is taken. Creative players and exempt operators build it for free.
+
+**Undo**
+
+You can't undo a house while the Scroll Forge or the Hephaestus Forge still holds items, or the forge holds essences. Empty them first. Nothing is ever deleted.
+
+**Good to know**
+
+- The forge's floor works whichever way the house faces. The places for ritual pedestals are left free.
+- The Wizard Tower's round tower is too small for the forge at Small and Medium size, and so is the Treehouse cottage at Small. Customise tells you and suggests a larger size.
+- The Builder's Hammer doesn't add the stations or the forge.
+- Without a mod, saved designs that used it open with its switch off.
+
+**Before you update (servers)**
+
+- The server and every player must update to 1.8.0 together. 1.7.x players can't join a 1.8.0 server, and 1.8.0 players can't join a 1.7.x server.
+- To build these stations on a server, install the mod on the server and on every player's game.
+- Existing designs, codes and presets build exactly the same houses.
+
+**Versions**
+
+Minecraft 1.20.1 with Forge 47.1.0 or newer. Tested with Iron's Spells 'n Spellbooks 1.20.1-3.16.3 (which itself needs Forge 47.4.0 or newer) and Forbidden & Arcanus 1.20.1-2.2.6. NeoForge 1.21.1 has its own 1.8.0.
+
+## 1.8.0 (NeoForge 1.21.1): Magic Room stations for Iron's Spells 'n Spellbooks and Forbidden & Arcanus
+
+**What's new**
+
+The Magic Room can now come with real working stations from two magic mods. Each has its own switch, so you can have one, both or neither.
+
+- **Iron's Spells 'n Spellbooks:** the Inscription Table (where you bind spells into spell books), the Scroll Forge and the Arcane Anvil, set along the walls with room to use them.
+- **Forbidden & Arcanus:** a ready-to-use Hephaestus Forge, built on its full darkstone floor exactly as the mod expects, already lit. Right-click it and it works.
+
+**How to turn them on**
+
+1. Install Iron's Spells 'n Spellbooks and/or Forbidden & Arcanus. They are separate mods and aren't included.
+2. Open a house in the catalogue and press **Customise**.
+3. In the **Mods** section, switch on **Iron's Spells 'n Spellbooks** and/or **Forbidden & Arcanus: Hephaestus Forge**.
+
+The house needs its Magic Room switched on and the Varied architecture. If a mod isn't installed, its switch is greyed out and says why. The note under each switch shows the Magic Room's size and what it costs.
+
+**The Magic Room gets bigger only when it needs to**
+
+With either switch on, the Magic Room is made larger to fit the stations and still leave plenty of free floor for your own things. It is at least 11 x 13 with the Iron's stations, 11 x 17 with the forge and 11 x 19 with both. With both switches off, every house is built exactly as before.
+
+**What it costs**
+
+In survival, the blocks are added to the house's price:
+
+- Iron's Spells: 1 Inscription Table, 1 Scroll Forge, 1 Arcane Anvil.
+- Hephaestus Forge: 48 Polished Darkstone, 9 Gilded Chiseled Polished Darkstone, 4 Chiseled Arcane Polished Darkstone, 1 Smithing Table and 1 Mundabitur Dust (the forge is what the dust makes of the table).
+
+The placement panel shows anything you're missing. If something is missing, the house isn't placed and nothing is taken. Creative players and exempt operators build it for free.
+
+**Undo**
+
+You can't undo a house while the Scroll Forge or the Hephaestus Forge still holds items, or the forge holds essences. Empty them first. Nothing is ever deleted.
+
+**Good to know**
+
+- The forge's floor works whichever way the house faces. The places for ritual pedestals are left free.
+- The Wizard Tower's round tower is too small for the forge at Small and Medium size, and so is the Treehouse cottage at Small. Customise tells you and suggests a larger size.
+- The Builder's Hammer doesn't add the stations or the forge.
+- Without a mod, saved designs that used it open with its switch off.
+
+**Before you update (servers)**
+
+- The server and every player must update to 1.8.0 together. 1.7.x players can't join a 1.8.0 server, and 1.8.0 players can't join a 1.7.x server.
+- To build these stations on a server, install the mod on the server and on every player's game.
+- Existing designs, codes and presets build exactly the same houses.
+
+**Versions**
+
+Minecraft 1.21.1 with NeoForge 21.1.1 or newer. Tested with Iron's Spells 'n Spellbooks 1.21.1-3.16.3 and Forbidden & Arcanus 2.6.1. Forge 1.20.1 has its own 1.8.0.
+
 ## 1.7.0 (Forge 1.20.1): Storage vault for Tom's Simple Storage
 
 **What's new**

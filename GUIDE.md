@@ -81,6 +81,11 @@ Some options worth knowing:
 - **Mods > Tom's Simple Storage vault** (since 1.7.0; needs Tom's Simple Storage installed): fills the Storage Room
   with 20 connected chests, an Inventory Connector, a Storage Terminal and a Crafting Terminal. In survival they are
   part of the price. Undo is refused while the vault holds items.
+- **Mods > Iron's Spells 'n Spellbooks** and **Mods > Forbidden & Arcanus: Hephaestus Forge** (since 1.8.0; each needs
+  its mod installed, either or both): the Magic Room gains Iron's Spells' Inscription Table, Scroll Forge and Arcane
+  Anvil, and/or a working Hephaestus Forge on its full darkstone floor. The Magic Room grows only as much as they need
+  (at least 11 x 13, 11 x 17 or 11 x 19 with both). In survival their blocks are part of the price (the forge as a
+  Smithing Table and Mundabitur Dust). Undo is refused while a station or the forge holds anything.
 
 ## What every house has
 

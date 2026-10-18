@@ -46,7 +46,8 @@ More screenshots are in the [images](images) folder.
 
 The [guide](GUIDE.md) covers every option, command and server setting.
 
-Works with Tom's Simple Storage by tom5454 (not included, install it separately).
+Works with Tom's Simple Storage by tom5454, Iron's Spells 'n Spellbooks by Iron431 and Forbidden & Arcanus by stal111 (none
+included, install them separately).
 
 ## AI Usage
 
