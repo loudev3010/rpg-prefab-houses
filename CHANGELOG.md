@@ -1,5 +1,43 @@
 # Changelog
 
+## 1.9.1 (Forge 1.20.1 and NeoForge 1.21.1): A cleaner catalogue, Customise screen and Builder's Hammer
+
+**What's new**
+
+The screens have been reorganised so everything fits and reads well at any window size and GUI scale, down to the smallest. Houses build exactly as before: no design, code or saved design changes.
+
+**Customise**
+
+- The settings are in **tabs**: Basics, Rooms, Underground, Exterior, Materials, and Mods (only when Tom's Simple Storage, Iron's Spells 'n Spellbooks or Forbidden & Arcanus is installed).
+- A **gold dot** marks every setting, and every tab, that differs from the card's own design. **Reset tab** puts that tab back.
+- Values stay on one line; a long one is cut with "..." and shown whole in its tooltip.
+- The right panel folds the rooms by floor and the generator's notes, so the size and the buttons stay in sight. The seed has a New seed button next to it. Generate is gone from the panel because the preview already updates by itself (the G key still works).
+- **Rooms view:** a tab for each floor, every room named on every floor, and rooms coloured by kind (living, kitchen, work, bedrooms, magic, treasure) with a legend.
+- Saved designs: the overlay's text no longer runs outside it.
+
+**Catalogue**
+
+- Card pictures are kept after the first time, so the catalogue opens with every card already drawn. They are redrawn by themselves after an update, or when you change resource packs or mods.
+- Every card is simply a **Style**; long names and sizes are cut with "..." rather than running into each other; the description is kept short enough for the size and rooms to stay in view.
+
+**Builder's Hammer**
+
+- One screen with **Wing / Tower / Mods** tabs. The house's name is no longer hidden under the Mods button, and the reroll button is now labelled **New look**.
+- The Mods list keeps its buttons in their own column. If the server can't answer for the house, the list now says so instead of staying empty.
+
+**Placing**
+
+- The action bar no longer repeats the keys the placement panel already shows.
+
+**Servers**
+
+- 1.9.1 changes only the screens: 1.9.0 and 1.9.1 servers and players can join each other.
+- Tested on a dedicated Forge server as well as in single-player: catalogue, Customise, placing, and the Builder's Hammer including its Mods list. NeoForge was tested in single-player (the screens are the same).
+
+**Versions**
+
+Minecraft 1.20.1 with Forge 47.1.0 or newer, and Minecraft 1.21.1 with NeoForge 21.1.1 or newer (separate files).
+
 ## 1.9.0 (Forge 1.20.1 and NeoForge 1.21.1): Place the vault, the forge and the stations yourself, and add or move them with the Builder's Hammer
 
 **What's new**
