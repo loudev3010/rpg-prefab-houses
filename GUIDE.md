@@ -46,11 +46,27 @@ The first five also have a hand-built signature house.
 
 The **Cottages** tab shows a smaller, cosier version of every style.
 
+![The catalogue](images/02-catalogue.jpg)
+
+The card pictures are kept after the first time, so the catalogue opens with every card drawn; they are drawn again by
+themselves after an update or when you change resource packs or mods.
+
 ## Customising
 
 Customise lets you change the size (Small to Massive), floors (1 to 5), rooms, basement, grounds, materials,
 roof, doors and more. The preview updates as you go and can show the outside, a cutaway of each floor, a room
 plan, or the mine.
+
+The settings are in tabs: **Basics**, **Rooms**, **Underground**, **Exterior**, **Materials**, and **Mods** (only
+when a supported mod is installed). A gold dot marks every setting, and every tab, that differs from the card's own
+design; **Reset tab** puts that tab back. The right panel shows whether the house builds, its size, and its rooms
+folded by floor (click a floor to open it); **Surprise me**, **Presets** and **Place** are always there.
+
+![Customise](images/08-customise.jpg)
+
+The **Rooms** view has a tab for each floor and colours the rooms by kind, with a legend:
+
+![The Rooms view](images/09-room-plan.jpg)
 
 If a house is too small for its style's rooms, it leaves out the ones that don't fit and names them; if even its
 main rooms don't fit, its big rooms go in a cellar under the garden, and as a last resort the rooms get a size
@@ -122,8 +138,11 @@ iron block  stick    iron block
             stick
 ```
 
-Right-click your house, choose a room and a size, then press **Choose spot**. **R** cycles through the
-places it fits, and left-click builds. A house can have up to 8 extensions.
+Right-click your house: the Hammer's screen has **Wing**, **Tower** and **Mods** tabs. Choose a room and a size
+(and floors for a tower), **New look** for another take on the same choice, then press **Choose spot**. **R** cycles
+through the places it fits, and left-click builds. A house can have up to 8 extensions.
+
+![The Builder's Hammer](images/16-hammer.jpg)
 
 **Mods** (since 1.9.0): puts the storage vault, the Hephaestus Forge or the Iron's Spells stations into a house you
 already built, or moves them. The Hammer only builds on empty space (the forge's darkstone only on the room's own floor),
@@ -131,6 +150,8 @@ never over your blocks, and never makes a room bigger. Install costs what a new 
 everything inside (chests, the Crafting Terminal's grid, the Scroll Forge, the forge's essences). A move is refused while
 someone has one of its chests, terminals or stations open nearby, or while another inventory touches the vault. After
 adding or moving one, the house can't be undone.
+
+![The Hammer's Mods tab](images/17-hammer-mods.jpg)
 
 ## Commands
 
