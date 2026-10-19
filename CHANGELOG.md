@@ -1,5 +1,48 @@
 # Changelog
 
+## 1.9.0 (Forge 1.20.1 and NeoForge 1.21.1): Place the vault, the forge and the stations yourself, and add or move them with the Builder's Hammer
+
+**What's new**
+
+The storage vault (Tom's Simple Storage), the Hephaestus Forge (Forbidden & Arcanus) and the Iron's Spells stations no longer have to stand where the generator puts them, and houses you've already built can get them too.
+
+**In Customise: put them where you want**
+
+1. Switch on the structures in the **Mods** section and open the **Rooms** view.
+2. Click the vault, the forge or a station. The places where it fits are marked with green dots.
+3. Use the **arrow keys** to move it to the next place that way. **Shift-click** a station to move all three together.
+4. **R** turns it (a station to the other wall of a corner; the forge looks the same however it's turned).
+5. **Delete** or **Reset to automatic** puts it back where the generator places it. **Esc** ends the selection.
+
+The places are saved in the design code and in saved designs. If you change the size or genre and a structure no longer fits, it stays where you put it, turns red, and the house can't be placed until you move or reset it. The screen says why.
+
+**With the Builder's Hammer: add one to a built house, or move one**
+
+Right-click a placed house with the Hammer and press **Mods**. For each of the three it tells you whether the house has it, what adding it costs, or why it can't (mod not on the server, no Storage or Magic Room, the room changed too much, no free place).
+
+- **Install** shows an outline in the world. The rotate key shows the next place, left click builds it, right click goes back. It costs what it costs when you build a new house, and nothing is taken until everything is ready.
+- **Move** works the same for one the house already has, and it's free. A moved vault keeps every item in its chests and its Crafting Terminal's grid, the forge keeps its essences and the Scroll Forge its contents. The forge's old spot gets its floor back.
+
+The Hammer only builds on empty space (and the forge's darkstone only on the room's own unchanged floor). It never replaces anything you've placed, and it never makes a Magic Room bigger. A move is refused while someone has one of the structure's chests, terminals or stations open nearby, or while another chest or hopper touches the vault. If anything isn't as planned, everything is put back exactly as it was.
+
+Once the Hammer has added or moved one of these, the house can no longer be undone (just like after adding a wing or tower).
+
+**Good to know**
+
+- Houses built before this version work too, wherever the room still looks as it was built.
+- Storage rooms often have their walls lined with chests and barrels already. If there's no free wall for the vault, the Mods list says so.
+- Existing designs, codes and presets build exactly the same houses.
+
+**Before you update (servers)**
+
+- The server and every player must update to 1.9.0 together (1.8.x and 1.9.0 can't join each other).
+- To use a mod's structure on a server, install that mod on the server and on every player's game.
+- Tested in single-player. A dedicated server with separate clients has not been tested for the Hammer's Mods list yet.
+
+**Versions**
+
+Forge: Minecraft 1.20.1 with Forge 47.1.0 or newer. Tested with Tom's Simple Storage 1.20-1.7.1, Iron's Spells 'n Spellbooks 1.20.1-3.16.3 (which itself needs Forge 47.4.0 or newer) and Forbidden & Arcanus 1.20.1-2.2.6. All three are optional. NeoForge: Minecraft 1.21.1 with NeoForge 21.1.1 or newer, tested with Tom's Simple Storage 1.21-2.4.2, Iron's Spells 'n Spellbooks 1.21.1-3.16.3 and Forbidden & Arcanus 2.6.1.
+
 ## 1.8.0 (Forge 1.20.1): Magic Room stations for Iron's Spells 'n Spellbooks and Forbidden & Arcanus
 
 **What's new**

@@ -86,6 +86,10 @@ Some options worth knowing:
   Anvil, and/or a working Hephaestus Forge on its full darkstone floor. The Magic Room grows only as much as they need
   (at least 11 x 13, 11 x 17 or 11 x 19 with both). In survival their blocks are part of the price (the forge as a
   Smithing Table and Mundabitur Dust). Undo is refused while a station or the forge holds anything.
+- **Placing them yourself** (since 1.9.0): in the **Rooms** view, click the vault, the forge or a station, move it with
+  the arrow keys between the places where it fits (green dots), Shift-click a station to move all three, **R** to turn,
+  **Delete** or **Reset to automatic** to put it back. The places are saved in the design. A place that no longer fits
+  after a size or genre change turns red and the house can't be placed until you move or reset it.
 
 ## What every house has
 
@@ -120,6 +124,13 @@ iron block  stick    iron block
 
 Right-click your house, choose a room and a size, then press **Choose spot**. **R** cycles through the
 places it fits, and left-click builds. A house can have up to 8 extensions.
+
+**Mods** (since 1.9.0): puts the storage vault, the Hephaestus Forge or the Iron's Spells stations into a house you
+already built, or moves them. The Hammer only builds on empty space (the forge's darkstone only on the room's own floor),
+never over your blocks, and never makes a room bigger. Install costs what a new house would; moving is free and keeps
+everything inside (chests, the Crafting Terminal's grid, the Scroll Forge, the forge's essences). A move is refused while
+someone has one of its chests, terminals or stations open nearby, or while another inventory touches the vault. After
+adding or moving one, the house can't be undone.
 
 ## Commands
 
