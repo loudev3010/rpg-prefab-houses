@@ -107,6 +107,23 @@ Some options worth knowing:
   **Delete** or **Reset to automatic** to put it back. The places are saved in the design. A place that no longer fits
   after a size or genre change turns red and the house can't be placed until you move or reset it.
 
+### Floor plans (since 2.0)
+
+In the **Rooms** tab, **Room Plan** is *Automatic* (the style lays out the rooms you tick) or *My Floor Plan*, which
+starts from the house you see so you only change what you want:
+
+- Pick a floor at the top of the Rooms tab, then **click a room in the plan**: it lights up and the others dim.
+- Set its **Floor**, its **Size** (Small, Normal, Large or Whole Floor), *Leave the floor empty* (walls, lights and
+  doors only, for machines) and **Tall** (top floor: open up to the roof; basement: the basement dug deeper).
+- **Join with...** then click another room on the same floor to make one big room; it holds everything each part
+  brings, the Mods machines included. **Split apart** undoes it. **Remove** takes the room out.
+- **+ Add a room** adds any room, as many times as you like, or an empty room. **Use a preset** starts from
+  Adventurer's Base, Wizard's Retreat, Homestead, Open Plan or Compact Base.
+
+The house keeps its size. Rooms that don't fit where you put them are built on the nearest floor with space (or left
+out) and listed in the Rooms tab; **Make it fit** grows the house until they fit, or says how many still can't. The
+mine, the stairs, the entrance and the style's shape stay where the style puts them.
+
 ## What every house has
 
 - An enchanting room with a full vanilla setup (switch the Magic Room off in the rooms if you don't want it).

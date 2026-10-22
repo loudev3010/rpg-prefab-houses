@@ -31,6 +31,7 @@ More screenshots are in the [images](images) folder.
   Storybook Manor, Rustic Townhouse, Fairy Hut, Hillside Burrow, Gothic Manor, Dwarven Hall, Eastern House, Greek
   Villa, Treehouse and Alpine Chalet
 - **Make it yours:** every size choice (house, rooms, basement, mine, garden, extensions) from Small to Massive, 1–5 floors, materials, Varied or Original architecture, room decoration, with a live 3D preview
+- **Floor plans (2.0):** any room on any floor, as many as you like, rooms joined into one, whole-floor, empty and tall rooms, and presets
 - **Underground:** themed basements and an optional deep mine down to deepslate, with what it dug out in chests at the bottom
 - **Safe placement:** a ghost preview, Varied houses laid into the land (level ground, natural slopes, a path from the front door, only the trees in the way taken down), no lag spikes, and undo within 30 minutes
 - **Builder's Hammer:** add wings and towers to a placed house

@@ -1,5 +1,34 @@
 # Changelog
 
+## 2.0.0 (Forge 1.20.1 and NeoForge 1.21.1): Your rooms, your way
+
+**What's new**
+
+You can now plan every floor of a house yourself: which rooms go on which floor, which rooms are joined into one, how big each one is. Houses you don't plan are built exactly as before, and every saved design and code still builds the same house.
+
+**My Floor Plan (Customise, Rooms tab)**
+
+- **Room Plan: Automatic / My Floor Plan.** Automatic is the house as before. My Floor Plan starts from the house you see, so you only change what you want.
+- **Click a room in the plan** to change it: it lights up and the rest dims. Pick the floor at the top of the Rooms tab; three short steps say what to do.
+- **Any room on any floor**, as many as you like: three bedrooms, two libraries, the Magic Room in the basement, the kitchen at the top.
+- **Join rooms into one.** Join with... then click another room on the same floor: Storage + Magic + Workshop as one hall holds the starter chests, the enchanting setup and every Mods machine (vault, Iron's stations, Hephaestus Forge). Split apart undoes it.
+- **Size:** Small, Normal, Large or Whole Floor (one room takes the whole floor).
+- **Empty rooms:** walls, lights and doors only, for your pack's machines. Any room can also be left without furniture.
+- **Tall rooms:** a top-floor room opens up under the roof; a basement room digs the basement deeper. Where a house can't build them (a flat roof, no room for the deeper stairs), they get normal ceilings and a note says so.
+- **Presets:** Adventurer's Base, Wizard's Retreat, Homestead, Open Plan and Compact Base, each a starting point you can change.
+- **The house keeps its size.** Rooms that don't fit where you put them are listed (click one to select it); **Make it fit** grows the house until they do, or says how many still can't.
+- The Mine, the stairs, the entrance and the genre's shape stay where the genre puts them.
+
+**Design codes and servers**
+
+- Planned houses have longer design codes (about three characters per room); all older codes build exactly as before.
+- The network protocol changed: servers and players need 2.0 on both sides. A 1.9 player can't join a 2.0 server: the game lists RPG Prefab Houses as a mismatched mod, and updating it fixes that.
+- Tested on a dedicated Forge server: catalogue, Customise, placing a large floor plan, and the Builder's Hammer with its Mods list. NeoForge was tested in single-player.
+
+**Versions**
+
+Minecraft 1.20.1 with Forge 47.1.0 or newer, and Minecraft 1.21.1 with NeoForge 21.1.1 or newer (separate files).
+
 ## 1.9.1 (Forge 1.20.1 and NeoForge 1.21.1): A cleaner catalogue, Customise screen and Builder's Hammer
 
 **What's new**
