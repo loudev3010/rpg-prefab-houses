@@ -1,5 +1,39 @@
 # Changelog
 
+## 2.1.0 (Forge 1.20.1 and NeoForge 1.21.1): Watch it rise
+
+**What's new**
+
+A placed house no longer just appears: it rises in front of you, course by course. And for packs that want a house to be earned, a new Blueprint mode turns the catalogue into a blueprint whose materials you bring to a building site. Nothing changes unless you ask for it: houses built are the same blocks as before, every saved design and code builds the same house, and Blueprint mode is off until a server turns it on.
+
+**Watch it rise**
+
+- The foundation goes in first, then every layer above ground sweeps across the house, the roof last.
+- A ring of light marks out the lot, a halo of light climbs with each course, the blocks give off light, puffs and dust with the sound of their material, and the finished house is greeted with sparks, confetti and a fanfare. Players up to 160 blocks away see it.
+- About 25 seconds for a three-floor Massive house, less for smaller ones.
+- **[Finish now]** in chat (or `/prefabhouse finish`) builds the rest at once.
+- Server setting `buildSpeed`: `NORMAL` (the default), `FAST`, `SLOW`, or `INSTANT` for the build as it was before 2.1. `buildEffects = false` keeps the pace without the particles and sounds.
+- A server that stops finishes its builds first; one that crashes part way finishes them when it next starts.
+
+**Blueprint mode (for packs and survival worlds)**
+
+- Server setting `buildMode = "BLUEPRINT"`. The default, `FREE`, is the mod as it always was.
+- Placing a house with the catalogue sets out a **Building Site**: a marker on the lot, the house as a ghost, the land held for it.
+- The site's bill counts the house's blocks in eight **material families**: Wood, Stone, Glass, Cloth, Metal, Lighting, Garden and Furnishings. Any block of a family pays for it: planks or logs for Wood, cobblestone or bricks for Stone. The land itself costs nothing.
+- Right-click the marker and **Deliver** what you carry. Friends who may build there can deliver too. The ghost fills from the ground up as the bill is covered, and the house rises once it is.
+- **Take back** returns your materials; an empty site can be removed. **Undo** of a house built from a site brings the site back holding everything.
+- `materialMultiplier` sets the share of the blocks asked for (0.5 as shipped) and `materialFamilies` scales single families. Pack makers can move items between families with the item tags `rpgprefabhouses:materials/<family>`; other mods' building blocks fall into a family on their own.
+- `placementCost` and the Mods section's blocks are on the bill too. The Builder's Hammer's wings and towers cost their materials. Creative players and exempt operators build free, as before.
+
+**Servers**
+
+- The network protocol changed: servers and players need 2.1 on both sides.
+- New command for operators: `/prefabhouse finish all`.
+
+**Versions**
+
+Minecraft 1.20.1 with Forge 47.1.0 or newer, and Minecraft 1.21.1 with NeoForge 21.1.1 or newer (separate files).
+
 ## 2.0.0 (Forge 1.20.1 and NeoForge 1.21.1): Your rooms, your way
 
 **What's new**

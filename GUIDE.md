@@ -139,6 +139,36 @@ mine, the stairs, the entrance and the style's shape stay where the style puts t
 - The ground around the house is smoothed into a gentle slope, so there are no dirt walls at the edge.
 - Houses build a little at a time, so the server doesn't freeze.
 
+### Watching it rise (since 2.1)
+
+A placed house rises course by course: its foundation first, then every layer above ground, the roof last. A ring of
+light marks out the lot, a halo of light climbs with each course, the blocks give off light and dust with the sound of
+their material, and the finished house gets sparks, confetti and a fanfare. A three-floor Massive house takes about 25
+seconds, smaller ones less. The **[Finish now]** link in chat, or `/prefabhouse finish`, builds the rest at once. The
+house built is exactly the same either way.
+
+## Blueprint mode (since 2.1)
+
+Servers and packs that want a house to be earned can set `buildMode = "BLUEPRINT"`. It is off unless a server turns it
+on; with it off, the catalogue places houses at once as it always has.
+
+1. Placing a house with the catalogue sets out a **Building Site**: a marker on the middle of the lot, the house as a
+   ghost, and the land held for it. You have one site at a time.
+2. The site has a bill. The house's blocks are counted in eight **material families**: Wood, Stone, Glass, Cloth, Metal,
+   Lighting, Garden and Furnishings. Any block of a family pays for it: planks, logs or wooden stairs for Wood;
+   cobblestone, bricks or sandstone for Stone. The land itself costs nothing. The placement panel shows the bill before
+   you set the site out.
+3. Right-click the marker and press **Deliver** to hand over what you carry that the site still needs. Named items and
+   items holding things (a filled shulker box) are never taken. Anyone who may build at the site can deliver. The ghost
+   fills from the ground up as the bill is covered.
+4. When the last line is covered, the house rises. If something has been put in the way since, the site says what, and
+   **Build** tries again.
+
+**Take back** returns the delivered materials to the site's owner, as many as fit in the inventory at a time, and an
+empty site can be removed. Undoing a house built from a site brings the site back holding everything that was delivered.
+Creative players and exempt operators place houses at once and free. The Builder's Hammer's wings and towers cost their
+own materials in this mode.
+
 ## Undo
 
 `/prefabhouse undo`, or the [Undo] link in chat, removes your last house and puts the land back. It works for
@@ -175,13 +205,15 @@ adding or moving one, the house can't be undone.
 ```
 /prefabhouse list
 /prefabhouse undo
+/prefabhouse finish [all]
 /prefabhouse give [targets]
 /prefabhouse spawn <house> [facing] [force]
 /prefabhouse generate <style> [seed] [width depth] [floors] [facing] [force]
 /prefabhouse design <code> [facing] [force]
 ```
 
-Everything except `list` and `undo` needs operator rights.
+Everything except `list`, `undo` and `finish` needs operator rights (`finish all`, which finishes every house being
+built, needs them too).
 
 ## Server settings
 
@@ -192,6 +224,12 @@ in the file. The main ones:
 - `placementCost`: what survival players pay for a house, e.g. `["minecraft:emerald=16"]`. Empty means free.
   Bigger houses, basements and mines cost more; `costBySize` and `costByGenre` adjust this.
 - `undoMinutes`: how long undo works (0 turns it off).
+- `buildSpeed`: how fast a placed house rises: `NORMAL` (the default), `FAST`, `SLOW`, or `INSTANT` for the build as it
+  was before 2.1. `buildEffects = false` keeps the pace without the particles and sounds.
+- `buildMode`: `FREE` (the default) or `BLUEPRINT` (see Blueprint mode). `materialMultiplier` is the share of a house's
+  blocks its bill asks for (0.5 as shipped), `materialFamilies` scales single families (`["glass=2", "garden=0"]`) and
+  `sitesPerPlayer` is how many sites a player may have. Packs can move items between families with the item tags
+  `rpgprefabhouses:materials/<family>`.
 - `blendTerrain`: smooth the land around the house.
 - `fitTerrain`: lay Varied houses into the land (level ground round the house, the garden following the slope, a path
   from the front door, only the trees in the way taken down). Off puts them on a level lot as before.
